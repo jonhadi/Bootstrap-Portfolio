@@ -7,33 +7,66 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets.css">
 
-    <title>Hello, world!</title>
+    <title>My Portfolio!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Jon Hadi</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white pt-0 pb-0">
+      <div class="container pl-0">
+      <a class="navbar-brand pt-0 pb-0" href="index.html">
+        <div class="name-bar"><h1>Jon Hadi</h1></div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+
+        </ul>
+        <span class="navbar-text">
           <ul class="navbar-nav mr-auto">
-  
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
           </ul>
-          <span class="navbar-text">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-          </span>
+        </span>
+      </div>
+    </div>
+    </nav>
+
+    <div class="container mt-4 pt-4 pb-2">
+      <h2>Portfolio</h2>
+      <div class="row">
+        <div class="col-md-3"> <a class="centered" href="#"><h3>Photography</h3>
+        </a>
+        <img src="images/camera.jpg">
         </div>
-      </nav>
+        <div class="col-md-3"> <a class="centered" href="#"><h3>Weightlifting</h3>
+        </a>
+        <img src="images/dumbell.jpeg">
+        </div>
+        <div class="col-md-3"> <a class="centered" href="#"><h3>Happymeal</h3>
+        </a>
+        <img src="images/happymeal.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">20</div>
+      </div>
+    </div>
+
+
+
+  <footer>
+     copyright @
+  </footer>
 
 
     <!-- Optional JavaScript -->

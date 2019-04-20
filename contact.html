@@ -9,41 +9,40 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets.css">
 
-    <title>Hello, world!</title>
+    <title>Contact Me!</title>
   </head>
 
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="d-flex flex-grow-1">
-          <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-          <a class="navbar-brand" href="#">
-              Navbar 7
-          </a>
-          <div class="w-100 text-right">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-          </div>
-      </div>
-      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-          <ul class="navbar-nav ml-auto flex-nowrap">
-              <li class="nav-item">
-                  <a href="#" class="nav-link">Link</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link">Link</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link">Link</a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link">Link</a>
-              </li>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-white pt-0 pb-0">
+      <div class="container pl-0">
+        <a class="navbar-brand pt-0 pb-0" href="index.html">
+          <h1>Jon Hadi</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+  
           </ul>
+          <span class="navbar-text">
+           <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </span>
+        </div>
       </div>
-  </nav>
+      </nav>
 
-  <div class="container">
+  <div class="container mt-4 pt-4 pb-2">
     <h2>Contact</h2>
     <form>
         <div class="form-group">
@@ -53,8 +52,7 @@
         <label for="exampleFormControlInput1">Email Address</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 
-
-        <div class="form-group px-2">
+        <div class="form-group pt-2">
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
         </div>
